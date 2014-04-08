@@ -40,7 +40,7 @@ router({
 })
 ```
 
-and `example.js 3 4 5` => `12` just like you'd hope.
+and `example.js add 3 4 5` => `12` just like you'd hope.
 
 But maybe that's not why you're here - maybe you're holding out for some real routing, some recursion!
 
