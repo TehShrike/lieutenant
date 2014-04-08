@@ -1,6 +1,12 @@
+Lieutenant
+==========
+
 I made a router for a command-line app I was making, and this is it!
 
 I wanted to build an app that worked less like a traditional *nix app, with its series of "-t 13" and "--other-option=yesplz" key-value arguments, and more like git, in those parts where you give word commands like "stash pop" and "branch".
+
+Usage
+=====
 
 To make a command-line app, preheat your oven to 176.7°C and type:
 
