@@ -1,6 +1,6 @@
 {
   "name": "lieutenant",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A command-line router",
   "main": "index.js",
   "scripts": {
@@ -14,5 +14,9 @@
   "license": "WTFPL",
   "devDependencies": {
     "tap": "~0.4.8"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TehShrike/lieutenant.git"
   }
 }
