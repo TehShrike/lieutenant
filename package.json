@@ -13,7 +13,7 @@
   "author": "TehShrike",
   "license": "WTFPL",
   "devDependencies": {
-    "tap": "~0.4.8"
+    "tap": "12.0.1"
   },
   "repository": {
     "type": "git",
