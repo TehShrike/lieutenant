@@ -1,17 +1,17 @@
-var followRoute = require('./router.js')
+const followRoute = require(`./router.js`)
 
 function defaultBadRoute() {
-	console.log("lieutenant no understand")
+	console.log(`lieutenant no understand`)
 }
 
 module.exports = function buildRouter(route, badRouteFnArgument) {
-	var args = process.argv.slice(2)
+	const [ ,, ...args ] = process.argv
 
-	var badRouteFn
+	let badRouteFn
 
-	if (typeof badRouteFnArgument === 'function') {
+	if (typeof badRouteFnArgument === `function`) {
 		badRouteFn = function() {
-			badRouteFnArgument.apply(null, args)
+			badRouteFnArgument(...args)
 		}
 	} else {
 		badRouteFn = defaultBadRoute

@@ -95,8 +95,8 @@ router({
 			(a, b) => parseFloat(a) + parseFloat(b)
 		))
 	}
-}, function badRoute() {
-	console.log('Type in double or add or test or something, not those dumb', arguments.length, 'words you did')
+}, function badRoute(...args) {
+	console.log('Type in double or add or test or something, not those dumb', args.length, 'words you did')
 })
 ```
 
